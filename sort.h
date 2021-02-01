@@ -34,4 +34,5 @@ void quick_sort(int *array, size_t size);
 void _recursion(int *array, size_t min, size_t max, size_t size);
 void swap(int *array, int i, int j);
 
+void shell_sort(int *array, size_t size);
 #endif
