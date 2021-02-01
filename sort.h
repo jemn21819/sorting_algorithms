@@ -34,5 +34,10 @@ void quick_sort(int *array, size_t size);
 void _recursion(int *array, size_t min, size_t max, size_t size);
 void swap(int *array, int i, int j);
 
+/* Advanced Tasks */
 void shell_sort(int *array, size_t size);
+
+void swap_node(listint_t *prev, listint_t *nod, listint_t **head);
+void cocktail_sort_list(listint_t **list);
+
 #endif
