@@ -1,12 +1,11 @@
 #include "sort.h"
 
 /**
- * swap_node - Swaps tha nodes
+ * swap_node - Swaps the nodes
  * @prev: previous node
  * @nod: node
  * @head: doubly linked list
  */
-
 void swap_node(listint_t *prev, listint_t *nod, listint_t **head)
 {
 	listint_t *tmp;
@@ -26,10 +25,9 @@ void swap_node(listint_t *prev, listint_t *nod, listint_t **head)
 }
 
 /**
- * cocktail_sort_list - sorts dlist using cocktail sort
- * @list: Head to dlist
+ * cocktail_sort_list - sort a doubly linked list in ascending order
+ * @list: Head to doubly linked list
  */
-
 void cocktail_sort_list(listint_t **list)
 {
 	listint_t *head;
