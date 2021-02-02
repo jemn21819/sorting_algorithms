@@ -6,14 +6,14 @@
  */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *head, *cn, *pn, *nn;
+	listint_t *cn, *pn, *nn;
 
-	head = *list;
-	cn = head->next;
+	cn = *list;
 
 	if (list == NULL)
 		return;
-
+	
+	cn = cn->next;
 	while (cn)
 	{
 		if (cn->prev != NULL)
@@ -35,9 +35,9 @@ void insertion_sort_list(listint_t **list)
 					nn->prev = pn;
 
 				if (cn->prev == NULL)
-					head = cn;
+					*list = cn;
 
-				print_list(head);
+				print_list(*list);
 			}
 			else
 				cn = cn->next;
@@ -45,5 +45,4 @@ void insertion_sort_list(listint_t **list)
 		else
 			cn = cn->next;
 	}
-	*list = head;
 }
