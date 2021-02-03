@@ -40,6 +40,16 @@ void shell_sort(int *array, size_t size);
 void swap_node(listint_t *prev, listint_t *nod, listint_t **head);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void make_heap(int *array, size_t size);
+void sift_down(int *array, size_t root, size_t end, size_t size);
+void radix_sort(int *array, size_t size);
+unsigned int pow_10(unsigned int power);
+unsigned int count_sort(int *array, size_t size, unsigned int digit);
+void bitonic_sort(int *array, size_t size);
+void bitonic_compare(char up, int *array, size_t size);
+void bitonic_merge(char up, int *array, size_t size);
+void bit_sort(char up, int *array, size_t size, size_t t);
 
 
 
