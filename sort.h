@@ -50,7 +50,9 @@ void bitonic_sort(int *array, size_t size);
 void bitonic_compare(char up, int *array, size_t size);
 void bitonic_merge(char up, int *array, size_t size);
 void bit_sort(char up, int *array, size_t size, size_t t);
-
+void quick_sort_hoare(int *array, size_t size);
+void _sorting(int *array, ssize_t min, ssize_t max, size_t size);
+size_t _partition(int *array, ssize_t min, ssize_t max, size_t size);
 
 
 #endif
