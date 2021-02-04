@@ -53,6 +53,8 @@ void bit_sort(char up, int *array, size_t size, size_t t);
 void quick_sort_hoare(int *array, size_t size);
 void _sorting(int *array, ssize_t min, ssize_t max, size_t size);
 size_t _partition(int *array, ssize_t min, ssize_t max, size_t size);
-
+void merge_sort(int *array, size_t size);
+void TDSplitMerge(size_t left, size_t right, int *array, int *copy);
+void TDMS(size_t left, size_t mid, size_t right, int *out, int *array);
 
 #endif
