@@ -4,7 +4,7 @@
  * TDMS - sort and merges
  * @left: starting index
  * @mid: mid of index
- * right: end index
+ * @right: end index
  * @out: resultant data
  * @array: array to be sorted
  * Return: void
